@@ -1,0 +1,15 @@
+{
+  "search date": "2026/09/17",
+  "pairs": 91,
+  "hits (assignments)": 152868,
+  "unique papers": 85229,
+  "completed pairs": [
+    "Colon|Small Intestine",
+    "Liver|Small Intestine"
+  ],
+  "kept assignments": 20373,
+  "window": "2006-09-22..2026-09-17",
+  "window hits (assignments)": 123036,
+  "window unique papers": 70213,
+  "pairs with window hits": 91
+}

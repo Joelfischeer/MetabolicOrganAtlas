@@ -1,0 +1,3629 @@
+{
+  "Adrenal Glands|Bone Marrow": {
+    "types": [],
+    "generated_at": "2026-10-20T19:35:57.649130",
+    "model": "claude-haiku-5-5"
+  },
+  "Adrenal Glands|Colon": {
+    "types": [],
+    "generated_at": "2026-10-20T19:35:57.651528",
+    "model": "claude-haiku-5-5"
+  },
+  "Adrenal Glands|Pancreas": {
+    "types": [],
+    "generated_at": "2026-10-20T19:35:57.666170",
+    "model": "claude-haiku-5-5"
+  },
+  "Adrenal Glands|Small Intestine": {
+    "types": [
+      "Metabolite_crosstalk"
+    ],
+    "runs": [
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-20T19:36:03.926576",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 665,
+      "out": 100,
+      "cache_write": 1362,
+      "cache_read": 5448
+    }
+  },
+  "Adrenal Glands|Spleen": {
+    "types": [],
+    "generated_at": "2026-10-20T19:35:57.668511",
+    "model": "claude-haiku-5-5"
+  },
+  "Bone Marrow|Muscle": {
+    "types": [
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-20T19:36:14.475082",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 650,
+      "out": 125,
+      "cache_write": 1565,
+      "cache_read": 6260
+    }
+  },
+  "Heart|Spleen": {
+    "types": [
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-20T19:36:49.415974",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 630,
+      "out": 125,
+      "cache_write": 4691,
+      "cache_read": 18764
+    }
+  },
+  "Muscle|Spleen": {
+    "types": [
+      "Other_hormonal_control"
+    ],
+    "runs": [
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}"
+    ],
+    "generated_at": "2026-10-20T19:37:15.008036",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 635,
+      "out": 90,
+      "cache_write": 1413,
+      "cache_read": 5652
+    }
+  },
+  "Pancreas|Spleen": {
+    "types": [
+      "nerve_connection",
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "nerve_connection",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "nerve_connection",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "nerve_connection",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "nerve_connection",
+        "hormonal_glucose_control",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "nerve_connection",
+        "Other_hormonal_control"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"nerve_connection\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\": [\"nerve_connection\", \"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\": [\"nerve_connection\", \"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"nerve_connection\",\"hormonal_glucose_control\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"nerve_connection\",\"Other_hormonal_control\"]}"
+    ],
+    "generated_at": "2026-10-20T19:37:24.851620",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 640,
+      "out": 168,
+      "cache_write": 2584,
+      "cache_read": 10336
+    }
+  },
+  "Adrenal Glands|Brain": {
+    "types": [
+      "Other_hormonal_control",
+      "nerve_connection",
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "Other_hormonal_control",
+        "nerve_connection",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Other_hormonal_control",
+        "nerve_connection",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Other_hormonal_control",
+        "nerve_connection",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Other_hormonal_control",
+        "nerve_connection",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Other_hormonal_control",
+        "nerve_connection",
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Other_hormonal_control\",\"nerve_connection\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"nerve_connection\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"nerve_connection\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"nerve_connection\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"nerve_connection\",\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-22T09:06:35.583125",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 650,
+      "out": 210,
+      "cache_write": 19680,
+      "cache_read": 78720
+    }
+  },
+  "Adrenal Glands|Muscle": {
+    "types": [],
+    "generated_at": "2026-10-22T09:06:29.055711",
+    "model": "claude-haiku-5-5"
+  },
+  "Bone Marrow|Lung": {
+    "types": [
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\": [\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-22T09:06:39.641959",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 645,
+      "out": 126,
+      "cache_write": 4369,
+      "cache_read": 17476
+    }
+  },
+  "Bone Marrow|Pancreas": {
+    "types": [
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-22T09:06:40.196703",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 655,
+      "out": 125,
+      "cache_write": 1556,
+      "cache_read": 6224
+    }
+  },
+  "Bone Marrow|Small Intestine": {
+    "types": [
+      "Metabolite_crosstalk"
+    ],
+    "runs": [
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-22T09:06:41.867552",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 660,
+      "out": 117,
+      "cache_write": 11888,
+      "cache_read": 47552
+    }
+  },
+  "Brain|Heart": {
+    "types": [
+      "nerve_connection",
+      "inflammatory_cytokine_crosstalk",
+      "Other_hormonal_control"
+    ],
+    "runs": [
+      [
+        "nerve_connection",
+        "inflammatory_cytokine_crosstalk",
+        "Other_hormonal_control"
+      ],
+      [
+        "nerve_connection",
+        "inflammatory_cytokine_crosstalk",
+        "hormonal_glucose_control"
+      ],
+      [
+        "nerve_connection",
+        "inflammatory_cytokine_crosstalk",
+        "Other_hormonal_control"
+      ],
+      [
+        "nerve_connection",
+        "inflammatory_cytokine_crosstalk",
+        "Other_hormonal_control"
+      ],
+      [
+        "nerve_connection",
+        "inflammatory_cytokine_crosstalk",
+        "Other_hormonal_control"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"nerve_connection\",\"inflammatory_cytokine_crosstalk\",\"Other_hormonal_control\"]}",
+      "{\"types\":[\"nerve_connection\",\"inflammatory_cytokine_crosstalk\",\"hormonal_glucose_control\"]}",
+      "{\"types\":[\"nerve_connection\",\"inflammatory_cytokine_crosstalk\",\"Other_hormonal_control\"]}",
+      "{\"types\":[\"nerve_connection\",\"inflammatory_cytokine_crosstalk\",\"Other_hormonal_control\"]}",
+      "{\"types\":[\"nerve_connection\",\"inflammatory_cytokine_crosstalk\",\"Other_hormonal_control\"]}"
+    ],
+    "generated_at": "2026-10-22T09:06:43.455717",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 625,
+      "out": 211,
+      "cache_write": 19869,
+      "cache_read": 79476
+    }
+  },
+  "Brain|Kidney": {
+    "types": [
+      "inflammatory_cytokine_crosstalk",
+      "Metabolite_crosstalk",
+      "Other_hormonal_control"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk",
+        "nerve_connection"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk",
+        "Other_hormonal_control"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk",
+        "nerve_connection"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk",
+        "Other_hormonal_control"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk",
+        "Other_hormonal_control"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\",\"nerve_connection\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\",\"Other_hormonal_control\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\",\"nerve_connection\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\",\"Other_hormonal_control\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\",\"Other_hormonal_control\"]}"
+    ],
+    "generated_at": "2026-10-22T09:06:45.229054",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 630,
+      "out": 229,
+      "cache_write": 19847,
+      "cache_read": 79388
+    }
+  },
+  "Brain|Lung": {
+    "types": [
+      "inflammatory_cytokine_crosstalk",
+      "nerve_connection",
+      "Metabolite_crosstalk"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk",
+        "nerve_connection",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "nerve_connection",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "nerve_connection",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "nerve_connection",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "nerve_connection",
+        "Metabolite_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"nerve_connection\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"nerve_connection\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"nerve_connection\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"nerve_connection\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"nerve_connection\",\"Metabolite_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-22T09:06:46.271507",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 625,
+      "out": 220,
+      "cache_write": 20424,
+      "cache_read": 81696
+    }
+  },
+  "Brain|Pancreas": {
+    "types": [
+      "hormonal_glucose_control",
+      "nerve_connection",
+      "Other_hormonal_control"
+    ],
+    "runs": [
+      [
+        "hormonal_glucose_control",
+        "nerve_connection",
+        "Other_hormonal_control"
+      ],
+      [
+        "hormonal_glucose_control",
+        "nerve_connection",
+        "Other_hormonal_control"
+      ],
+      [
+        "hormonal_glucose_control",
+        "nerve_connection",
+        "Other_hormonal_control"
+      ],
+      [
+        "hormonal_glucose_control",
+        "nerve_connection",
+        "Other_hormonal_control"
+      ],
+      [
+        "hormonal_glucose_control",
+        "nerve_connection",
+        "Other_hormonal_control"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"hormonal_glucose_control\",\"nerve_connection\",\"Other_hormonal_control\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"nerve_connection\",\"Other_hormonal_control\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"nerve_connection\",\"Other_hormonal_control\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"nerve_connection\",\"Other_hormonal_control\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"nerve_connection\",\"Other_hormonal_control\"]}"
+    ],
+    "generated_at": "2026-10-22T09:06:46.365472",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 635,
+      "out": 180,
+      "cache_write": 19843,
+      "cache_read": 79372
+    }
+  },
+  "Heart|Kidney": {
+    "types": [
+      "hormonal_glucose_control",
+      "Other_hormonal_control",
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "hormonal_glucose_control",
+        "other_physical_connection",
+        "Other_hormonal_control"
+      ],
+      [
+        "hormonal_glucose_control",
+        "Other_hormonal_control",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "hormonal_glucose_control",
+        "Other_hormonal_control",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "hormonal_glucose_control",
+        "Other_hormonal_control",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "hormonal_glucose_control",
+        "Other_hormonal_control",
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"hormonal_glucose_control\",\"other_physical_connection\",\"Other_hormonal_control\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"Other_hormonal_control\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"Other_hormonal_control\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"Other_hormonal_control\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"Other_hormonal_control\",\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-22T09:07:00.942872",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 630,
+      "out": 221,
+      "cache_write": 20988,
+      "cache_read": 83952
+    }
+  },
+  "Heart|Liver": {
+    "types": [
+      "adipokine_myokine_signaling",
+      "inflammatory_cytokine_crosstalk",
+      "Metabolite_crosstalk"
+    ],
+    "runs": [
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-22T09:07:01.217705",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 625,
+      "out": 250,
+      "cache_write": 20570,
+      "cache_read": 82280
+    }
+  },
+  "Heart|Lung": {
+    "types": [
+      "other_physical_connection",
+      "inflammatory_cytokine_crosstalk",
+      "Metabolite_crosstalk"
+    ],
+    "runs": [
+      [
+        "other_physical_connection",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "other_physical_connection",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "other_physical_connection",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "other_physical_connection",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "other_physical_connection",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"other_physical_connection\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"other_physical_connection\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"other_physical_connection\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"other_physical_connection\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"other_physical_connection\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-22T09:07:02.210160",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 625,
+      "out": 225,
+      "cache_write": 20739,
+      "cache_read": 82956
+    }
+  },
+  "Heart|Muscle": {
+    "types": [
+      "adipokine_myokine_signaling",
+      "other_physical_connection",
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "adipokine_myokine_signaling",
+        "other_physical_connection",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "other_physical_connection"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "other_physical_connection",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "other_physical_connection",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "other_physical_connection",
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"adipokine_myokine_signaling\",\"other_physical_connection\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"other_physical_connection\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"other_physical_connection\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"other_physical_connection\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"other_physical_connection\",\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-22T09:07:00.771326",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 630,
+      "out": 225,
+      "cache_write": 20002,
+      "cache_read": 80008
+    }
+  },
+  "Heart|Small Intestine": {
+    "types": [
+      "Metabolite_crosstalk",
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-22T09:07:04.463219",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 640,
+      "out": 185,
+      "cache_write": 21015,
+      "cache_read": 84060
+    }
+  },
+  "Heart|WAT": {
+    "types": [
+      "adipokine_myokine_signaling",
+      "inflammatory_cytokine_crosstalk",
+      "Metabolite_crosstalk"
+    ],
+    "runs": [
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "other_physical_connection",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"other_physical_connection\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-22T09:07:06.429980",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 625,
+      "out": 246,
+      "cache_write": 19945,
+      "cache_read": 79780
+    }
+  },
+  "Kidney|Small Intestine": {
+    "types": [
+      "Metabolite_crosstalk"
+    ],
+    "runs": [
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-22T09:07:10.141811",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 645,
+      "out": 100,
+      "cache_write": 21018,
+      "cache_read": 84072
+    }
+  },
+  "Liver|Lung": {
+    "types": [
+      "inflammatory_cytokine_crosstalk",
+      "Metabolite_crosstalk",
+      "other_physical_connection"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk",
+        "other_physical_connection"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk",
+        "other_physical_connection"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "other_physical_connection",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "other_physical_connection",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk",
+        "other_physical_connection"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\",\"other_physical_connection\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\",\"other_physical_connection\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"other_physical_connection\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"other_physical_connection\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\",\"other_physical_connection\"]}"
+    ],
+    "generated_at": "2026-10-22T09:07:21.366113",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 625,
+      "out": 225,
+      "cache_write": 20464,
+      "cache_read": 81856
+    }
+  },
+  "Liver|Muscle": {
+    "types": [
+      "adipokine_myokine_signaling",
+      "Metabolite_crosstalk",
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "adipokine_myokine_signaling",
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"adipokine_myokine_signaling\",\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-22T09:07:17.054022",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 630,
+      "out": 250,
+      "cache_write": 20785,
+      "cache_read": 83140
+    }
+  },
+  "Liver|Thyroid": {
+    "types": [
+      "Other_hormonal_control",
+      "Metabolite_crosstalk",
+      "circadian_clock_synchronization"
+    ],
+    "runs": [
+      [
+        "Other_hormonal_control",
+        "Metabolite_crosstalk",
+        "circadian_clock_synchronization"
+      ],
+      [
+        "Other_hormonal_control",
+        "Metabolite_crosstalk",
+        "circadian_clock_synchronization"
+      ],
+      [
+        "Other_hormonal_control",
+        "Metabolite_crosstalk",
+        "circadian_clock_synchronization"
+      ],
+      [
+        "Other_hormonal_control",
+        "Metabolite_crosstalk",
+        "circadian_clock_synchronization"
+      ],
+      [
+        "Other_hormonal_control",
+        "Metabolite_crosstalk",
+        "circadian_clock_synchronization"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Other_hormonal_control\",\"Metabolite_crosstalk\",\"circadian_clock_synchronization\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"Metabolite_crosstalk\",\"circadian_clock_synchronization\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"Metabolite_crosstalk\",\"circadian_clock_synchronization\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"Metabolite_crosstalk\",\"circadian_clock_synchronization\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"Metabolite_crosstalk\",\"circadian_clock_synchronization\"]}"
+    ],
+    "generated_at": "2026-10-22T09:07:25.945410",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 635,
+      "out": 210,
+      "cache_write": 20712,
+      "cache_read": 82848
+    }
+  },
+  "Liver|WAT": {
+    "types": [
+      "adipokine_myokine_signaling"
+    ],
+    "runs": [
+      [
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\"]}"
+    ],
+    "generated_at": "2026-10-22T09:07:24.758102",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 625,
+      "out": 134,
+      "cache_write": 21228,
+      "cache_read": 84912
+    }
+  },
+  "Lung|Small Intestine": {
+    "types": [
+      "Metabolite_crosstalk",
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-22T09:07:22.491317",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 640,
+      "out": 185,
+      "cache_write": 20221,
+      "cache_read": 80884
+    }
+  },
+  "Lung|Spleen": {
+    "types": [
+      "inflammatory_cytokine_crosstalk",
+      "Metabolite_crosstalk"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\": [\"inflammatory_cytokine_crosstalk\", \"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-22T09:07:24.309395",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 630,
+      "out": 187,
+      "cache_write": 3663,
+      "cache_read": 14652
+    }
+  },
+  "Muscle|WAT": {
+    "types": [
+      "adipokine_myokine_signaling"
+    ],
+    "runs": [
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "adipokine_myokine_signaling"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\"]}"
+    ],
+    "generated_at": "2026-10-22T09:07:34.590804",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 630,
+      "out": 134,
+      "cache_write": 20404,
+      "cache_read": 81616
+    }
+  },
+  "Spleen|Thyroid": {
+    "types": [],
+    "generated_at": "2026-10-22T09:07:41.955764",
+    "model": "claude-haiku-5-5"
+  },
+  "Bone Marrow|Colon": {
+    "types": [
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-22T11:42:21.379231",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 645,
+      "out": 125,
+      "cache_write": 1581,
+      "cache_read": 6324
+    }
+  },
+  "Colon|Heart": {
+    "types": [
+      "Metabolite_crosstalk"
+    ],
+    "runs": [
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\": [\"Metabolite_crosstalk\"]}",
+      "{\"types\": [\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-22T11:42:20.908131",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 625,
+      "out": 102,
+      "cache_write": 2020,
+      "cache_read": 8080
+    }
+  },
+  "Colon|Muscle": {
+    "types": [
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-22T11:42:20.341043",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 630,
+      "out": 125,
+      "cache_write": 1965,
+      "cache_read": 7860
+    }
+  },
+  "Colon|Pancreas": {
+    "types": [
+      "Metabolite_crosstalk"
+    ],
+    "runs": [
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-22T11:42:20.970056",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 635,
+      "out": 110,
+      "cache_write": 5332,
+      "cache_read": 21328
+    }
+  },
+  "Colon|Small Intestine": {
+    "types": [
+      "Metabolite_crosstalk"
+    ],
+    "runs": [
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-22T11:42:26.981397",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 640,
+      "out": 117,
+      "cache_write": 21528,
+      "cache_read": 86112
+    }
+  },
+  "Colon|Spleen": {
+    "types": [
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\": [\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\": [\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-22T11:42:25.979498",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 630,
+      "out": 127,
+      "cache_write": 2660,
+      "cache_read": 10640
+    }
+  },
+  "Colon|WAT": {
+    "types": [
+      "adipokine_myokine_signaling",
+      "inflammatory_cytokine_crosstalk",
+      "Metabolite_crosstalk"
+    ],
+    "runs": [
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\": [\"adipokine_myokine_signaling\", \"inflammatory_cytokine_crosstalk\", \"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-22T11:42:26.567468",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 625,
+      "out": 253,
+      "cache_write": 4446,
+      "cache_read": 17784
+    }
+  },
+  "Adrenal Glands|Heart": {
+    "types": [
+      "Other_hormonal_control"
+    ],
+    "runs": [
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "hormonal_glucose_control",
+        "Other_hormonal_control"
+      ],
+      [
+        "hormonal_glucose_control",
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"Other_hormonal_control\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:10.288926",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 650,
+      "out": 112,
+      "cache_write": 2189,
+      "cache_read": 8756
+    }
+  },
+  "Adrenal Glands|Kidney": {
+    "types": [
+      "mineral_electrolyte_regulation",
+      "hormonal_glucose_control"
+    ],
+    "runs": [
+      [
+        "hormonal_glucose_control",
+        "mineral_electrolyte_regulation"
+      ],
+      [
+        "Other_hormonal_control",
+        "mineral_electrolyte_regulation"
+      ],
+      [
+        "mineral_electrolyte_regulation",
+        "hormonal_glucose_control"
+      ],
+      [
+        "hormonal_glucose_control",
+        "mineral_electrolyte_regulation"
+      ],
+      [
+        "hormonal_glucose_control",
+        "Other_hormonal_control",
+        "mineral_electrolyte_regulation"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"hormonal_glucose_control\",\"mineral_electrolyte_regulation\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"mineral_electrolyte_regulation\"]}",
+      "{\"types\":[\"mineral_electrolyte_regulation\",\"hormonal_glucose_control\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"mineral_electrolyte_regulation\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"Other_hormonal_control\",\"mineral_electrolyte_regulation\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:12.381867",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 655,
+      "out": 174,
+      "cache_write": 1771,
+      "cache_read": 7084
+    }
+  },
+  "Adrenal Glands|Liver": {
+    "types": [
+      "Other_hormonal_control",
+      "Metabolite_crosstalk"
+    ],
+    "runs": [
+      [
+        "Other_hormonal_control",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Other_hormonal_control",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Other_hormonal_control",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Other_hormonal_control",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Other_hormonal_control",
+        "Metabolite_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Other_hormonal_control\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"Metabolite_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:11.885994",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 650,
+      "out": 150,
+      "cache_write": 1858,
+      "cache_read": 7432
+    }
+  },
+  "Adrenal Glands|Lung": {
+    "types": [],
+    "generated_at": "2026-10-23T18:14:06.185100",
+    "model": "claude-haiku-5-5"
+  },
+  "Adrenal Glands|Thyroid": {
+    "types": [
+      "Other_hormonal_control"
+    ],
+    "runs": [
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:11.187471",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 660,
+      "out": 90,
+      "cache_write": 1564,
+      "cache_read": 6256
+    }
+  },
+  "Adrenal Glands|WAT": {
+    "types": [
+      "adipokine_myokine_signaling"
+    ],
+    "runs": [
+      [
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "adipokine_myokine_signaling"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\"]}",
+      "{\"types\": [\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:11.230774",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 650,
+      "out": 106,
+      "cache_write": 2072,
+      "cache_read": 8288
+    }
+  },
+  "Bone Marrow|Brain": {
+    "types": [
+      "inflammatory_cytokine_crosstalk",
+      "nerve_connection"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk",
+        "nerve_connection"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "nerve_connection",
+        "other_physical_connection"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "nerve_connection"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "nerve_connection",
+        "other_physical_connection"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "nerve_connection"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"nerve_connection\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"nerve_connection\",\"other_physical_connection\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"nerve_connection\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"nerve_connection\",\"other_physical_connection\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"nerve_connection\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:12.139516",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 645,
+      "out": 176,
+      "cache_write": 11287,
+      "cache_read": 45148
+    }
+  },
+  "Bone Marrow|Heart": {
+    "types": [
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "other_physical_connection"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"other_physical_connection\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:10.841639",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 645,
+      "out": 133,
+      "cache_write": 5994,
+      "cache_read": 23976
+    }
+  },
+  "Bone Marrow|Kidney": {
+    "types": [
+      "Metabolite_crosstalk",
+      "adipokine_myokine_signaling",
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "Metabolite_crosstalk",
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "adipokine_myokine_signaling"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Metabolite_crosstalk\",\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"adipokine_myokine_signaling\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:11.818832",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 650,
+      "out": 216,
+      "cache_write": 3972,
+      "cache_read": 15888
+    }
+  },
+  "Bone Marrow|Liver": {
+    "types": [
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\": [\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:15.285853",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 645,
+      "out": 150,
+      "cache_write": 9319,
+      "cache_read": 37276
+    }
+  },
+  "Bone Marrow|Spleen": {
+    "types": [
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:18.722900",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 650,
+      "out": 125,
+      "cache_write": 4405,
+      "cache_read": 17620
+    }
+  },
+  "Bone Marrow|Thyroid": {
+    "types": [
+      "inflammatory_cytokine_crosstalk",
+      "Other_hormonal_control"
+    ],
+    "runs": [
+      [
+        "hormonal_glucose_control",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Other_hormonal_control",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Other_hormonal_control",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Other_hormonal_control",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Other_hormonal_control",
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"hormonal_glucose_control\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:16.116214",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 655,
+      "out": 176,
+      "cache_write": 1598,
+      "cache_read": 6392
+    }
+  },
+  "Bone Marrow|WAT": {
+    "types": [
+      "adipokine_myokine_signaling"
+    ],
+    "runs": [
+      [
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:18.421529",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 645,
+      "out": 134,
+      "cache_write": 13792,
+      "cache_read": 55168
+    }
+  },
+  "Brain|Colon": {
+    "types": [
+      "nerve_connection",
+      "inflammatory_cytokine_crosstalk",
+      "Metabolite_crosstalk"
+    ],
+    "runs": [
+      [
+        "nerve_connection",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "nerve_connection",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "nerve_connection",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "nerve_connection",
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "nerve_connection",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"nerve_connection\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"nerve_connection\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"nerve_connection\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"nerve_connection\",\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"nerve_connection\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:17.365901",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 625,
+      "out": 220,
+      "cache_write": 10429,
+      "cache_read": 41716
+    }
+  },
+  "Brain|Liver": {
+    "types": [
+      "inflammatory_cytokine_crosstalk",
+      "nerve_connection",
+      "Metabolite_crosstalk"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk",
+        "nerve_connection",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "nerve_connection",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "nerve_connection",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "nerve_connection",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "nerve_connection",
+        "Metabolite_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"nerve_connection\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"nerve_connection\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"nerve_connection\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"nerve_connection\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"nerve_connection\",\"Metabolite_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:18.670183",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 625,
+      "out": 220,
+      "cache_write": 20530,
+      "cache_read": 82120
+    }
+  },
+  "Brain|Muscle": {
+    "types": [
+      "adipokine_myokine_signaling",
+      "Other_hormonal_control"
+    ],
+    "runs": [
+      [
+        "adipokine_myokine_signaling",
+        "Other_hormonal_control",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "Other_hormonal_control",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "Other_hormonal_control",
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"adipokine_myokine_signaling\",\"Other_hormonal_control\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"Other_hormonal_control\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"Other_hormonal_control\",\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:20.569748",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 630,
+      "out": 181,
+      "cache_write": 19673,
+      "cache_read": 78692
+    }
+  },
+  "Brain|Small Intestine": {
+    "types": [
+      "nerve_connection",
+      "Metabolite_crosstalk",
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "nerve_connection",
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "nerve_connection",
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "nerve_connection",
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "nerve_connection",
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "nerve_connection",
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"nerve_connection\",\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"nerve_connection\",\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"nerve_connection\",\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"nerve_connection\",\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"nerve_connection\",\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:19.854126",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 640,
+      "out": 220,
+      "cache_write": 20252,
+      "cache_read": 81008
+    }
+  },
+  "Brain|Spleen": {
+    "types": [
+      "inflammatory_cytokine_crosstalk",
+      "nerve_connection"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk",
+        "nerve_connection",
+        "Other_hormonal_control"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "nerve_connection",
+        "Other_hormonal_control"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "nerve_connection",
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "nerve_connection",
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "nerve_connection",
+        "other_physical_connection"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"nerve_connection\",\"Other_hormonal_control\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"nerve_connection\",\"Other_hormonal_control\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"nerve_connection\",\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"nerve_connection\",\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"nerve_connection\",\"other_physical_connection\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:20.744461",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 630,
+      "out": 214,
+      "cache_write": 6720,
+      "cache_read": 26880
+    }
+  },
+  "Brain|Thyroid": {
+    "types": [
+      "Other_hormonal_control",
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "Other_hormonal_control",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "hormonal_glucose_control",
+        "Other_hormonal_control",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Other_hormonal_control",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Other_hormonal_control",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Other_hormonal_control",
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Other_hormonal_control\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"Other_hormonal_control\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:22.621078",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 635,
+      "out": 186,
+      "cache_write": 20264,
+      "cache_read": 81056
+    }
+  },
+  "Brain|WAT": {
+    "types": [
+      "adipokine_myokine_signaling",
+      "nerve_connection",
+      "Other_hormonal_control"
+    ],
+    "runs": [
+      [
+        "adipokine_myokine_signaling",
+        "nerve_connection",
+        "Other_hormonal_control"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "nerve_connection",
+        "Other_hormonal_control"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "nerve_connection",
+        "Other_hormonal_control"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "nerve_connection",
+        "Other_hormonal_control"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "nerve_connection",
+        "Other_hormonal_control"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"adipokine_myokine_signaling\",\"nerve_connection\",\"Other_hormonal_control\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"nerve_connection\",\"Other_hormonal_control\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"nerve_connection\",\"Other_hormonal_control\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"nerve_connection\",\"Other_hormonal_control\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"nerve_connection\",\"Other_hormonal_control\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:24.073045",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 625,
+      "out": 190,
+      "cache_write": 19410,
+      "cache_read": 77640
+    }
+  },
+  "Colon|Kidney": {
+    "types": [
+      "Metabolite_crosstalk"
+    ],
+    "runs": [
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:24.074120",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 630,
+      "out": 100,
+      "cache_write": 4600,
+      "cache_read": 18400
+    }
+  },
+  "Colon|Liver": {
+    "types": [
+      "Metabolite_crosstalk",
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:26.694411",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 625,
+      "out": 185,
+      "cache_write": 21173,
+      "cache_read": 84692
+    }
+  },
+  "Colon|Lung": {
+    "types": [
+      "Metabolite_crosstalk",
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:25.295979",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 625,
+      "out": 185,
+      "cache_write": 11189,
+      "cache_read": 44756
+    }
+  },
+  "Colon|Thyroid": {
+    "types": [
+      "Other_hormonal_control"
+    ],
+    "runs": [
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:24.374192",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 635,
+      "out": 90,
+      "cache_write": 2717,
+      "cache_read": 10868
+    }
+  },
+  "Heart|Pancreas": {
+    "types": [
+      "hormonal_glucose_control",
+      "inflammatory_cytokine_crosstalk",
+      "Other_hormonal_control"
+    ],
+    "runs": [
+      [
+        "Other_hormonal_control",
+        "hormonal_glucose_control",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "hormonal_glucose_control",
+        "Other_hormonal_control",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "hormonal_glucose_control",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "hormonal_glucose_control",
+        "Other_hormonal_control",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "hormonal_glucose_control",
+        "Other_hormonal_control",
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\": [\"Other_hormonal_control\", \"hormonal_glucose_control\", \"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"Other_hormonal_control\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\": [\"hormonal_glucose_control\", \"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"Other_hormonal_control\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"Other_hormonal_control\",\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:33.613451",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 635,
+      "out": 225,
+      "cache_write": 5114,
+      "cache_read": 20456
+    }
+  },
+  "Heart|Thyroid": {
+    "types": [
+      "Other_hormonal_control"
+    ],
+    "runs": [
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:31.022240",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 635,
+      "out": 90,
+      "cache_write": 10473,
+      "cache_read": 41892
+    }
+  },
+  "Kidney|Liver": {
+    "types": [
+      "inflammatory_cytokine_crosstalk",
+      "Metabolite_crosstalk",
+      "adipokine_myokine_signaling"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk",
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk",
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk",
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk",
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk",
+        "adipokine_myokine_signaling"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\",\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\",\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\",\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\",\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\",\"adipokine_myokine_signaling\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:32.981604",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 630,
+      "out": 250,
+      "cache_write": 21205,
+      "cache_read": 84820
+    }
+  },
+  "Kidney|Lung": {
+    "types": [
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:32.239710",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 630,
+      "out": 125,
+      "cache_write": 12425,
+      "cache_read": 49700
+    }
+  },
+  "Kidney|Muscle": {
+    "types": [
+      "adipokine_myokine_signaling",
+      "Metabolite_crosstalk",
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "adipokine_myokine_signaling",
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "Metabolite_crosstalk",
+        "mineral_electrolyte_regulation"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "Metabolite_crosstalk",
+        "mineral_electrolyte_regulation"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"adipokine_myokine_signaling\",\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"Metabolite_crosstalk\",\"mineral_electrolyte_regulation\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"Metabolite_crosstalk\",\"mineral_electrolyte_regulation\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:35.052446",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 635,
+      "out": 244,
+      "cache_write": 8103,
+      "cache_read": 32412
+    }
+  },
+  "Kidney|Pancreas": {
+    "types": [
+      "inflammatory_cytokine_crosstalk",
+      "hormonal_glucose_control"
+    ],
+    "runs": [
+      [
+        "hormonal_glucose_control",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "hormonal_glucose_control",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "hormonal_glucose_control",
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"hormonal_glucose_control\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\": [\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:37.430161",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 640,
+      "out": 159,
+      "cache_write": 7403,
+      "cache_read": 29612
+    }
+  },
+  "Kidney|Spleen": {
+    "types": [
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:31.737591",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 635,
+      "out": 125,
+      "cache_write": 6537,
+      "cache_read": 26148
+    }
+  },
+  "Kidney|Thyroid": {
+    "types": [
+      "Other_hormonal_control",
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "Other_hormonal_control",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Other_hormonal_control",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Other_hormonal_control",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Other_hormonal_control",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Other_hormonal_control",
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Other_hormonal_control\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\": [\"Other_hormonal_control\", \"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:32.189792",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 640,
+      "out": 177,
+      "cache_write": 4032,
+      "cache_read": 16128
+    }
+  },
+  "Kidney|WAT": {
+    "types": [
+      "adipokine_myokine_signaling",
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:35.387732",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 630,
+      "out": 173,
+      "cache_write": 8709,
+      "cache_read": 34836
+    }
+  },
+  "Liver|Pancreas": {
+    "types": [
+      "hormonal_glucose_control",
+      "Metabolite_crosstalk",
+      "other_physical_connection"
+    ],
+    "runs": [
+      [
+        "hormonal_glucose_control",
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "hormonal_glucose_control",
+        "Metabolite_crosstalk",
+        "other_physical_connection"
+      ],
+      [
+        "hormonal_glucose_control",
+        "other_physical_connection",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "hormonal_glucose_control",
+        "Metabolite_crosstalk",
+        "other_physical_connection"
+      ],
+      [
+        "hormonal_glucose_control",
+        "Metabolite_crosstalk",
+        "other_physical_connection"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"hormonal_glucose_control\",\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"Metabolite_crosstalk\",\"other_physical_connection\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"other_physical_connection\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"Metabolite_crosstalk\",\"other_physical_connection\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"Metabolite_crosstalk\",\"other_physical_connection\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:38.616811",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 635,
+      "out": 209,
+      "cache_write": 21140,
+      "cache_read": 84560
+    }
+  },
+  "Liver|Small Intestine": {
+    "types": [
+      "Metabolite_crosstalk"
+    ],
+    "runs": [
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk",
+        "Other_hormonal_control"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\",\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:37.757666",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 640,
+      "out": 127,
+      "cache_write": 21123,
+      "cache_read": 84492
+    }
+  },
+  "Liver|Spleen": {
+    "types": [
+      "inflammatory_cytokine_crosstalk",
+      "Metabolite_crosstalk"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk",
+        "other_physical_connection"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Other_hormonal_control",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Other_hormonal_control",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\",\"other_physical_connection\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"Other_hormonal_control\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"Other_hormonal_control\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:39.827798",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 630,
+      "out": 201,
+      "cache_write": 11958,
+      "cache_read": 47832
+    }
+  },
+  "Lung|Muscle": {
+    "types": [
+      "inflammatory_cytokine_crosstalk",
+      "adipokine_myokine_signaling"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk",
+        "adipokine_myokine_signaling",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "adipokine_myokine_signaling",
+        "other_physical_connection"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "adipokine_myokine_signaling",
+        "other_physical_connection"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "adipokine_myokine_signaling",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk",
+        "adipokine_myokine_signaling"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"adipokine_myokine_signaling\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"adipokine_myokine_signaling\",\"other_physical_connection\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"adipokine_myokine_signaling\",\"other_physical_connection\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"adipokine_myokine_signaling\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\",\"adipokine_myokine_signaling\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:38.291357",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 630,
+      "out": 230,
+      "cache_write": 3346,
+      "cache_read": 13384
+    }
+  },
+  "Lung|Pancreas": {
+    "types": [
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "other_physical_connection"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"other_physical_connection\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:39.184137",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 635,
+      "out": 116,
+      "cache_write": 4784,
+      "cache_read": 19136
+    }
+  },
+  "Lung|Thyroid": {
+    "types": [
+      "Other_hormonal_control"
+    ],
+    "runs": [
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\": [\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:40.128682",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 635,
+      "out": 91,
+      "cache_write": 3669,
+      "cache_read": 14676
+    }
+  },
+  "Lung|WAT": {
+    "types": [
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:40.365541",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 625,
+      "out": 125,
+      "cache_write": 3243,
+      "cache_read": 12972
+    }
+  },
+  "Muscle|Pancreas": {
+    "types": [
+      "adipokine_myokine_signaling",
+      "inflammatory_cytokine_crosstalk",
+      "hormonal_glucose_control"
+    ],
+    "runs": [
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "hormonal_glucose_control"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "hormonal_glucose_control"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "hormonal_glucose_control"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"hormonal_glucose_control\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"hormonal_glucose_control\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"hormonal_glucose_control\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:42.758917",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 640,
+      "out": 223,
+      "cache_write": 10871,
+      "cache_read": 43484
+    }
+  },
+  "Muscle|Small Intestine": {
+    "types": [
+      "Metabolite_crosstalk"
+    ],
+    "runs": [
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\": [\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:46.788144",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 645,
+      "out": 101,
+      "cache_write": 14647,
+      "cache_read": 58588
+    }
+  },
+  "Muscle|Thyroid": {
+    "types": [
+      "Other_hormonal_control"
+    ],
+    "runs": [
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:43.566828",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 640,
+      "out": 90,
+      "cache_write": 3989,
+      "cache_read": 15956
+    }
+  },
+  "Pancreas|Small Intestine": {
+    "types": [
+      "hormonal_glucose_control",
+      "nerve_connection",
+      "Metabolite_crosstalk"
+    ],
+    "runs": [
+      [
+        "hormonal_glucose_control",
+        "nerve_connection",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "hormonal_glucose_control",
+        "nerve_connection",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "hormonal_glucose_control",
+        "nerve_connection",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "hormonal_glucose_control",
+        "nerve_connection",
+        "Metabolite_crosstalk"
+      ],
+      [
+        "hormonal_glucose_control",
+        "nerve_connection",
+        "Metabolite_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"hormonal_glucose_control\",\"nerve_connection\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"nerve_connection\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"nerve_connection\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"nerve_connection\",\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"nerve_connection\",\"Metabolite_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:44.590409",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 650,
+      "out": 190,
+      "cache_write": 20857,
+      "cache_read": 83428
+    }
+  },
+  "Pancreas|Thyroid": {
+    "types": [
+      "Other_hormonal_control"
+    ],
+    "runs": [
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ],
+      [
+        "Other_hormonal_control"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Other_hormonal_control\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:45.784246",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 645,
+      "out": 90,
+      "cache_write": 3737,
+      "cache_read": 14948
+    }
+  },
+  "Pancreas|WAT": {
+    "types": [
+      "adipokine_myokine_signaling",
+      "inflammatory_cytokine_crosstalk",
+      "hormonal_glucose_control"
+    ],
+    "runs": [
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "hormonal_glucose_control"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "hormonal_glucose_control"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "hormonal_glucose_control"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "hormonal_glucose_control"
+      ],
+      [
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk",
+        "Metabolite_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"hormonal_glucose_control\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"hormonal_glucose_control\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"hormonal_glucose_control\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"hormonal_glucose_control\"]}",
+      "{\"types\":[\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\",\"Metabolite_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:45.739058",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 635,
+      "out": 246,
+      "cache_write": 16915,
+      "cache_read": 67660
+    }
+  },
+  "Small Intestine|Spleen": {
+    "types": [
+      "Metabolite_crosstalk",
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk",
+        "Other_hormonal_control"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\",\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:46.405629",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 645,
+      "out": 195,
+      "cache_write": 9927,
+      "cache_read": 39708
+    }
+  },
+  "Small Intestine|Thyroid": {
+    "types": [
+      "Metabolite_crosstalk",
+      "inflammatory_cytokine_crosstalk",
+      "Other_hormonal_control"
+    ],
+    "runs": [
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk",
+        "Other_hormonal_control"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk",
+        "Other_hormonal_control"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "hormonal_glucose_control",
+        "circadian_clock_synchronization"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "inflammatory_cytokine_crosstalk",
+        "Other_hormonal_control"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "hormonal_glucose_control",
+        "circadian_clock_synchronization"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\",\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\",\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"hormonal_glucose_control\",\"circadian_clock_synchronization\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"inflammatory_cytokine_crosstalk\",\"Other_hormonal_control\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"hormonal_glucose_control\",\"circadian_clock_synchronization\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:45.429908",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 650,
+      "out": 227,
+      "cache_write": 16167,
+      "cache_read": 64668
+    }
+  },
+  "Small Intestine|WAT": {
+    "types": [
+      "Metabolite_crosstalk",
+      "adipokine_myokine_signaling",
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "Metabolite_crosstalk",
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk",
+        "adipokine_myokine_signaling",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ],
+      [
+        "Metabolite_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Metabolite_crosstalk\",\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\",\"adipokine_myokine_signaling\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}",
+      "{\"types\":[\"Metabolite_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:53.378668",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 640,
+      "out": 190,
+      "cache_write": 20430,
+      "cache_read": 81720
+    }
+  },
+  "Spleen|WAT": {
+    "types": [
+      "nerve_connection",
+      "inflammatory_cytokine_crosstalk"
+    ],
+    "runs": [
+      [
+        "nerve_connection",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "nerve_connection",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "nerve_connection",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "nerve_connection",
+        "inflammatory_cytokine_crosstalk"
+      ],
+      [
+        "nerve_connection",
+        "inflammatory_cytokine_crosstalk"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"nerve_connection\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"nerve_connection\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"nerve_connection\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"nerve_connection\",\"inflammatory_cytokine_crosstalk\"]}",
+      "{\"types\":[\"nerve_connection\",\"inflammatory_cytokine_crosstalk\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:55.804313",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 630,
+      "out": 160,
+      "cache_write": 2459,
+      "cache_read": 9836
+    }
+  },
+  "Thyroid|WAT": {
+    "types": [
+      "Other_hormonal_control",
+      "adipokine_myokine_signaling"
+    ],
+    "runs": [
+      [
+        "Other_hormonal_control",
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "hormonal_glucose_control",
+        "Other_hormonal_control",
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "Other_hormonal_control",
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "Other_hormonal_control",
+        "adipokine_myokine_signaling"
+      ],
+      [
+        "Other_hormonal_control",
+        "adipokine_myokine_signaling"
+      ]
+    ],
+    "raw_responses": [
+      "{\"types\":[\"Other_hormonal_control\",\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"hormonal_glucose_control\",\"Other_hormonal_control\",\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"adipokine_myokine_signaling\"]}",
+      "{\"types\":[\"Other_hormonal_control\",\"adipokine_myokine_signaling\"]}"
+    ],
+    "generated_at": "2026-10-23T18:14:52.150050",
+    "model": "claude-haiku-5-5",
+    "tokens": {
+      "in": 635,
+      "out": 166,
+      "cache_write": 8976,
+      "cache_read": 35904
+    }
+  }
+}

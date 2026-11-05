@@ -1,0 +1,378 @@
+## =============================================================================
+##  TEXTS AND LAYOUT OF THE "HOW IT WORKS" INFO PANEL (the (i) button of the dashboard)
+## =============================================================================
+##  Edit this file, then rebuild the dashboard:
+##      uv run python run_metabolic_lit_search.py --viz-only
+##
+##  FORMAT
+##    * The file is split into sections by lines of the form   @@ section: <name>
+##      Everything below such a line (up to the next one) is plain HTML.
+##    * Lines starting with "## " (like these) are comments and are not copied into the page.
+##    * [[placeholder]] is replaced by a value computed in Python (counts, keyword lists,
+##      tables ...). The placeholders available in each section are listed in its
+##      "## placeholders:" comment. Keep them as they are, or delete them if you don't
+##      want that value to appear. Do not invent new ones (a typo is reported at build time).
+##    * Layout classes used here:
+##        info-h2          section heading            info-p      paragraph
+##        info-code        grey monospace block       info-stat-grid / info-stat / info-stat-val / info-stat-lbl
+##                         the four little statistic boxes
+##      Everything else is ordinary HTML/CSS (inline style="..." attributes, <ul>, <ol>,
+##      <table>, <strong>, <em>, <code>, <a href=...>).
+##
+##  WHERE THE TABS ARE. The top bar has two buttons that open the panel with their own tabs:
+##    button "How it works"
+##      1  Literature Search      -> section "search"
+##      2  Connection Types       -> section "connection_types"
+##      3  Descriptions           -> section "descriptions"
+##      4  LLM Prompts            -> section "llm_prompts_intro"      (the prompts themselves are generated from the code)
+##    button "Result Statistics"
+##      1  Literature Statistics  -> section "literature_stats_intro"   (charts/lists are generated)
+##      2  Network Analysis       -> sections "network_summary_intro", "edge_overlap_intro",
+##                                   "per_organ_degree_intro"          (tables are generated)
+##      3  Edge Statistics        -> section "edge_statistics_text"     (charts are generated)
+##      4  Key Player Enrichment  -> section "key_player_enrichment_intro"   (the buttons and the bar plots are generated)
+##  The tab names themselves and the connection-type names/definitions are NOT in this file:
+##  tab names are set in _build_info_tabs() (run_metabolic_lit_search.py), connection types
+##  in reference_network_only_metabolic/config.py (CONNECTION_TYPES).
+## =============================================================================
+
+
+@@ section: search
+## Tab 1 "Literature Search".
+## placeholders: [[n_pairs]] organ pairs in the network | [[n_organs]] organs |
+##   [[years_back]] look-back window in years | [[max_papers]] max papers per pair |
+##   [[n_pairs_searched]] pairs with a search result |
+##   [[funnel_rows]] the four table rows of the paper funnel (generated) |
+##   [[duplicate_rows]] the three table rows of the duplicate-paper table (generated) |
+##   [[kw_block]] metabolic keywords | [[crosstalk_kw_block]] crosstalk keywords |
+##   [[cond_llm_model]] model of the LLM condition filter | [[cond_llm_backend]] "the Claude API" or "Ollama" |
+##   [[cond_label_rows]] table rows: the seven condition labels with definition and paper count (generated) |
+##   [[cond_filter_stats]] one-paragraph summary of the filtering outcome (generated) |
+##   [[search_date]] date of the PubMed search | [[window_range]] publication-date window of the search |
+##   [[n_hormones]] [[n_metabolites]] [[n_proteins]] sizes of the three key-player vocabularies |
+##   [[n_h_edges]] [[n_o_edges]] edges of the healthy / overweight PET partial-correlation networks
+        <div class="info-h2">Overview</div>
+        <p class="info-p">
+          The Metabolic Reference Atlas</strong> covers
+          <strong>[[n_pairs]] organ-organ pairs</strong> across
+          <strong>[[n_organs]] organs</strong>: adrenal
+          glands, bone marrow, brain, colon, heart, kidney, liver, lung, muscle,
+          pancreas, small intestine, spleen, thyroid, and white adipose tissue (WAT).
+        </p>
+        <p class="info-p">
+          The atlas covers seven disease-conditions with <strong>All papers</strong> combining them. The 
+          disease-conditions were assigned by an LLM based on the abstract and title of each paper. Each
+          shown organ-organ connection has at least found paper. In addition, <strong>partial-correlation networks</strong> 
+          based on FDG-PET are available for three cohorts (mean ± SD): healthy (BMI &le; 25 kg/m², n = 112; BMI 22.3 ± 1.9 kg/m², age 33.8 ± 12.6 years),
+          overweight (BMI &gt; 25 kg/m², n = 85; BMI 30.6 ± 3.4 kg/m², age 34.4 ± 10.9 years) and lung cancer (n = 241; BMI 25.4 ± 4.6 kg/m², age 64.9 ± 10.3 years).
+          Age is known for 99, 77 and 240 of these patients.
+          Partial correlation networks are based on the work of <a href="https://doi.org/10.1016/j.medj.2025.100881" target="_blank"
+            style="color:#818cf8;text-decoration:underline"
+            title="Geist, B. K. et al. The metabolic organ connectome: A novel approach to measure allostatic load during health-to-disease transition. Med 6, 100881 (2025)">Geist et al. (2025)</a>
+          Edge colour shows the sign of the partial correlation (blue positive, red negative).
+        </p>
+        <p class="info-p">
+          The pipeline of the atlas uses a <strong>PubMed query</strong> requiring both organs, at least one
+          metabolic keyword and at least one crosstalk keyword in the title or abstract. After
+          fetching, papers are filtered further: kept are papers where both organs names and 
+          a crosstalk keyword appear together in the <strong>same sentence</strong>. In addition, 
+          a <strong>multi-organ rule</strong> is applied to select only actual relatopnships.
+        </p>
+        <div class="info-h2">Search Parameters</div>
+        <div class="info-stat-grid">
+          <div class="info-stat"><div class="info-stat-val">[[years_back]] yrs</div><div class="info-stat-lbl">Look-back window</div></div>
+          <div class="info-stat"><div class="info-stat-val" id="stat-val-edges">—</div><div class="info-stat-lbl">Edges with ≥1 paper</div></div>
+        </div>
+        <p class="info-p" style="color:#94a3b8">The search was run on [[search_date]] for papers published [[window_range]].</p>
+        <div class="info-h2">Paper Funnel</div>
+        <p class="info-p" style="margin-bottom:8px">Papers surviving each step of the filtering pipeline across all [[n_pairs_searched]] organ-organ pairs. "Total" counts the same paper once per pair it was assigned to. "Unique" counts distinct papers:</p>
+        <table style="width:100%;border-collapse:collapse;font-size:12px;margin-bottom:10px">
+          <style>
+            .frow-step{padding:4px 8px 4px 0;color:#cbd5e1;white-space:nowrap}
+            .frow-val{padding:4px 8px 4px 0;color:#f8fafc;font-weight:700;text-align:right;white-space:nowrap}
+            .frow-uniq{padding:4px 8px 4px 0;color:#93c5fd;text-align:right;white-space:nowrap}
+            .frow-pairs{padding:4px 8px 4px 0;color:#94a3b8;text-align:right;white-space:nowrap}
+            .frow-pct{padding:4px 0;color:#64748b;text-align:right;white-space:nowrap}
+          </style>
+          <thead>
+            <tr>
+              <th style="padding:3px 8px 6px 0;color:#64748b;font-weight:600;text-align:left;border-bottom:1px solid #334155">Step</th>
+              <th style="padding:3px 8px 6px 0;color:#64748b;font-weight:600;text-align:right;border-bottom:1px solid #334155">Total</th>
+              <th style="padding:3px 8px 6px 0;color:#64748b;font-weight:600;text-align:right;border-bottom:1px solid #334155">Unique</th>
+              <th style="padding:3px 8px 6px 0;color:#64748b;font-weight:600;text-align:right;border-bottom:1px solid #334155">Pairs</th>
+              <th style="padding:3px 0 6px;color:#64748b;font-weight:600;text-align:right;border-bottom:1px solid #334155">Retained</th>
+            </tr>
+          </thead>
+          <tbody>[[funnel_rows]]
+          </tbody>
+        </table>
+        <div class="info-h2">Duplicate Papers</div>
+        <p class="info-p">
+          Each paper is fetched independently for every organ pair whose PubMed
+          query it matches, so the same PMID can appear in multiple pairs
+          (e.g., a paper on liver-gut-brain crosstalk may pass the same-sentence
+          filter for both liver-small intestine and liver-brain). The condition filter 
+          gives every paper a condition label.
+        </p>
+        <div class="info-h2"> Search Query (regex-based)</div>
+        <p class="info-p">Each organ contributes its <strong>MeSH term</strong> and all
+        <strong>text aliases</strong> searched in Title/Abstract. Both organ clauses must
+        co-occur with at least one metabolic keyword and at least one crosstalk keyword:</p>
+        <div class="info-code">(MeSH_A OR aliases_A[Title/Abstract])
+AND (MeSH_B OR aliases_B[Title/Abstract])
+AND ([[kw_block]])
+AND ([[crosstalk_kw_block]])</div>
+        <p class="info-p">
+          Organ and crosstalk terms are matched as <strong>whole words</strong>
+          not substrings so e.g. "renal" does not match to "adrenal".
+          A match is also discarded if it's <strong>negated</strong>, e.g.
+          "non-renal", "nonrenal", "non renal" or "not renal" don't count
+          as a positive mention of that organ or crosstalk term.
+        </p>
+        <div class="info-h2">Same-Sentence Filter (regex-based)</div>
+        <p class="info-p">
+          A paper is kept only if there's a single
+          sentence in its title/abstract containing <strong>organ A's
+          name/alias, organ B's name/alias, and a crosstalk keyword all
+          together</strong>.
+        </p>
+        <p class="info-p">
+          A <strong>multi-organ rule</strong> also guards against sentences that name a third
+          organ: e.g. "the pancreas modulates protein expression in the heart and colon" describes two
+          pancreas relationships, not a heart-colon one. Organ mentions joined only by list words
+          (",", "and", "or", "/", "&amp;", "as well as") form one group. A pair is rejected if both
+          organs are in the same group, if they are parallel sites joined by a repeated location word
+          ("in the brain and in the lung"), or if another organ outside their groups is named before
+          the later of the two organs. Organs named only after both are ignored.
+        </p>
+        <div class="info-h2">Condition Filter (LLM-based)</div>
+        <p class="info-p">
+          Every paper that passed the same-sentence filter is classified by an LLM (<code>[[cond_llm_model]]</code>, via
+          [[cond_llm_backend]]). It reads the title/abstract and assigns the paper to one of seven predefined
+          disease-conditions.
+        </p>
+        <table style="width:100%;border-collapse:collapse;font-size:12px;margin-bottom:8px">
+          <thead>
+            <tr>
+              <th style="padding:3px 8px 6px 0;color:#64748b;font-weight:600;text-align:left;border-bottom:1px solid #334155">Label</th>
+              <th style="padding:3px 8px 6px 0;color:#64748b;font-weight:600;text-align:left;border-bottom:1px solid #334155">Meaning</th>
+              <th style="padding:3px 0 6px 8px;color:#64748b;font-weight:600;text-align:right;border-bottom:1px solid #334155">Papers</th>
+            </tr>
+          </thead>
+          <tbody>[[cond_label_rows]]
+          </tbody>
+        </table>
+        <p class="info-p">
+          To account for LLM errors, the LLM must also return the <strong>evidence sentence</strong>
+          that led to its decision. A regex tests if the evidence sentence (at least four words) 
+          occurs in the title or abstract in the same order. If not, the answer counts as a hallucination and
+          the paper is not used for any condition view.
+        </p>
+        [[cond_filter_stats]]
+        <div class="info-h2">Key Player Extraction</div>
+        <p class="info-p">The title, abstract and MeSH descriptors of the papers of a pair are scanned against three
+        vocabularies. A term and its synonyms count <strong>once per paper</strong>:</p>
+        <ul style="margin:0 0 10px 16px;padding:0;color:#cbd5e1">
+          <li style="margin-bottom:4px"><strong style="color:#fdba74">Hormones</strong> ([[n_hormones]] terms) — insulin, glucagon, cortisol, leptin, GLP-1, IGF-1, FGF21, irisin, …</li>
+          <li style="margin-bottom:4px"><strong style="color:#5eead4">Metabolites</strong> ([[n_metabolites]] terms) — based on the Stanford Pathways of Human Metabolism map: glucose, lactate, fatty acids, bile acids, amino acids, ATP, …</li>
+          <li style="margin-bottom:4px"><strong style="color:#a5b4fc">Proteins</strong> ([[n_proteins]] terms) — all Human Protein Atlas proteins with evidence at protein level (gene name, symbol and hyphenated variants such as "IL2" / "IL-2"); protein families are merged (e.g. AKT1-3, GLUT1-5)</li>
+        </ul>
+        <p class="info-p">A hormone that also appears in another list is counted only as a hormone. Terms identical to one
+        of the 10,000 most frequent English words were removed (e.g. "was" for WASP actin nucleation promoting factor). 
+        </p>
+
+
+@@ section: literature_stats_intro
+## Tab 2 "Literature Statistics": text above the All papers / condition buttons. The lists of papers
+## per organ / connection and the Sankey diagrams are generated from the data.
+## placeholders: none
+        <div class="info-h2">Literature Statistics</div>
+        <p class="info-p" style="color:#94a3b8">
+          This section shows the disease-condition specific literature extraction results.
+          The left bar plot give the number of unique papers per organ. The middle bar plot shows the numer of
+          unique papers per connection. In the Sankey diagram the ribbon thickness indicates the number of 
+          same-sentence co-occurring papers for that organ pair.
+        </p>
+
+
+@@ section: connection_types
+## Tab 3 "Connection Types". The table of connection types is generated from CONNECTION_TYPES
+## in reference_network_only_metabolic/config.py (edit names/definitions there).
+## placeholders: [[llm_model]] model name | [[llm_backend]] "Ollama" or "the Claude API" | [[llm_max_papers]] abstracts per pair |
+##   [[vote_runs]] number of independent runs | [[vote_majority]] runs needed for a type to be kept |
+##   [[llm_abstract_chars]] abstract length limit | [[connection_type_rows]] the table rows (generated)
+        <div class="info-h2">LLM Classification</div>
+        <p class="info-p">
+          For each organ pair and disease-condition an LLM (<code>[[llm_model]]</code>, via [[llm_backend]]) reads the first
+          <strong>[[llm_max_papers]] papers</strong> of the pair (title and abstract, the abstract cut to
+          [[llm_abstract_chars]] characters) and assigns
+          <strong>1 to 3 connection types</strong> from the categories below.
+        </p>
+        <p class="info-p">
+          To make the assignmet more robust, the classification is run
+          <strong>[[vote_runs]] times independently</strong> per pair. Only types that appear
+          in at least [[vote_majority]] of the [[vote_runs]] runs are kept. If the
+          runs disagree on everything, the single most-voted type is kept, so every pair
+          always ends up with at least one type.
+        </p>
+        <div class="info-h2">Connection Type Categories</div>
+        <table style="width:100%;border-collapse:collapse;font-size:12px">
+          [[connection_type_rows]]
+        </table>
+        <p class="info-p" style="margin-top:10px">
+          All assigned types are shown as coloured badges on each edge in the network.
+        </p>
+
+
+@@ section: descriptions
+## Tab 4 "Descriptions".
+## placeholders: [[llm_model]] description model | [[desc_pool]] papers sampled | [[desc_top]] sources per summary |
+##   [[desc_sentences]] summary length | [[desc_organ_sentences]] organ summary length | [[desc_grounding]] paragraph on the hallucination checks (empty for local models) |
+##   [[desc_organ_method]] the select + summarise step of the organ descriptions (depends on the model)
+        <div class="info-h2">Edge Descriptions</div>
+        <p class="info-p">
+          Each organ-organ connection receives a short, cited summary generated
+          by <code>[[llm_model]]</code> in a two-step process:
+        </p>
+        <ol style="margin:0 0 12px 16px;padding:0;color:#cbd5e1;font-size:13px;line-height:1.7">
+          <li style="margin-bottom:6px">
+            <strong style="color:#e2e8f0">Sample</strong>: up to
+            <strong>[[desc_pool]] papers</strong> are randomly sampled from the papers of that pair in the
+            selected disease-condition. If fewer papers exist, all are used.
+          </li>
+          <li style="margin-bottom:6px">
+            <strong style="color:#e2e8f0">Select</strong>: the LLM reads the [[desc_pool]] paper
+            titles/abstracts and identifies the <strong>[[desc_top]] most relevant</strong> ones
+            for the specific metabolic or hormonal interaction between the two organs.
+          </li>
+          <li>
+            <strong style="color:#e2e8f0">Summarise</strong>: the LLM writes a
+            [[desc_sentences]] sentence cited summary based solely on those [[desc_top]] papers.
+            Citations in the text correspond to the numbered references
+            shown in the edge panel.
+          </li>
+        </ol>
+        <p class="info-p">
+        </p>
+        [[desc_grounding]]
+        <div class="info-h2">Organ Descriptions</div>
+        <p class="info-p">
+          Each organ node receives a [[desc_organ_sentences]]-sentence metabolic overview generated by
+          <code>[[llm_model]]</code>:
+        </p>
+        <ol style="margin:0 0 12px 16px;padding:0;color:#cbd5e1;font-size:13px;line-height:1.7">
+          <li style="margin-bottom:6px">
+            <strong style="color:#e2e8f0">Search</strong>: PubMed is queried for the organ (MeSH term and aliases)
+            combined with the metabolic keywords above, retrieving the <strong>50 most recent papers</strong>.
+          </li>
+          <li style="margin-bottom:6px">
+            [[desc_organ_method]]
+          </li>
+        </ol>
+        <p class="info-p">
+        </p>
+
+
+@@ section: llm_prompts_intro
+## Tab 5 "LLM Prompts": text above the prompts. The prompts are generated from the code that runs the
+## pipeline (Literature_Search/prompt_catalog.py), so they cannot be edited here.
+        <div class="info-h2">Prompts used by the LLM steps</div>
+        <p class="info-p">
+          Every LLM step of the pipeline is listed below with the exact prompt it sends.
+          Text in <code>&lt;angle&gt;</code> or <code>[square]</code> brackets stands for data that is inserted
+          at run time (the paper's title and abstract, the organ names, the number of papers).
+        </p>
+        <p class="info-p">
+        </p>
+
+
+@@ section: network_summary_intro
+## Tab 5 "Network Analysis": text above the first table (View / Organs / Edges / Density ...).
+## placeholders: none
+        <div class="info-h2">Network Summary</div>
+        <p class="info-p">Each disease-condition view is treated as an unweighted undirected network where a
+        pair counts as a connection if it has ≥1 literature paper after that view's filter.</p>
+
+
+@@ section: edge_overlap_intro
+## Tab 5 "Network Analysis": text above the edge-overlap table.
+## placeholders: [[n_conditions]] | [[n_all_edges]]
+        <div class="info-h2">Edge Overlap Between Conditions</div>
+        <p class="info-p">How the connections of the [[n_conditions]] condition views relate to each
+        other and to the full network of [[n_all_edges]] connections:</p>
+
+
+@@ section: per_organ_degree_intro
+## Tab 5 "Network Analysis": text above the per-organ degree table.
+## placeholders: none
+        <div class="info-h2">Per-Organ Degree</div>
+        <p class="info-p">Number of connections each organ has in each view (sorted by All-view degree):</p>
+
+
+@@ section: edge_statistics_text
+## Tab 6 "Edge Statistics": left column next to the OO charts (one per view).
+## placeholders: none
+        <div class="info-h2">Otsuka-Ochiai Coefficient</div>
+        <p class="info-p">
+          For each organ pair (A, B) the <strong>Otsuka-Ochiai (OO) coefficient</strong>
+          normalises the raw co-occurrence paper count by the geometric mean of each
+          organ's total paper pool, correcting for organs with a large literature base
+          that would otherwise dominate any raw co-mention count.
+        </p>
+## The formula is typeset with plain HTML/CSS (fraction bar = border of .oo-den, square root = sign + overline), no external library.
+        <style>
+          .oo-formula { display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:6px 12px;
+                        background:#0f172a; border:1px solid #334155; border-radius:6px; padding:14px 16px; margin:8px 0 12px;
+                        font-family:"Cambria Math","STIX Two Math","Latin Modern Math",Cambria,"Times New Roman",serif;
+                        font-size:18px; color:#e2e8f0; }
+          .oo-formula i { font-style:italic; }
+          .oo-formula sub { font-size:0.62em; font-style:normal; vertical-align:baseline; position:relative; top:0.35em; }
+          .oo-frac { display:inline-flex; flex-direction:column; align-items:center; }
+          .oo-num { padding:0 6px 5px; }
+          .oo-den { display:inline-flex; align-items:flex-end; padding:5px 6px 0; border-top:1.5px solid #e2e8f0; }
+          .oo-rad { font-size:1.45em; line-height:1; margin-right:2px; }
+          .oo-radicand { border-top:1.5px solid #e2e8f0; padding:1px 4px 0; }
+        </style>
+        <div class="oo-formula">
+          <span><i>OO</i>(<i>A</i>, <i>B</i>)</span>
+          <span>=</span>
+          <span class="oo-frac">
+            <span class="oo-num"><i>n</i><sub>papers</sub>(<i>A</i> ↔ <i>B</i>)</span>
+            <span class="oo-den"><span class="oo-rad">√</span><span class="oo-radicand"><i>n</i><sub>papers</sub>(<i>A</i>) × <i>n</i><sub>papers</sub>(<i>B</i>)</span></span>
+          </span>
+        </div>
+        <p class="info-p">
+          <em>n<sub>papers</sub>(A)</em> is the union of unique PubMed IDs across all pairs
+          involving organ A in that view (the same same-sentence-filtered paper set used throughout).
+          The coefficient values are between [0, 1].
+        </p>
+        <div class="info-h2">Threshold Selection (Kneedle / Elbow)</div>
+        <p class="info-p">
+          The non-zero OO values of all pairs of a view are sorted in ascending order and the
+          <strong>kneedle algorithm</strong> (rolling-mean smoothing → log-transform →
+          normalise → maximise diagonal distance) identifies the "elbow", so the point
+          of maximum curvature where adding more edges yields diminishing evidence
+          quality. Pairs with OO ≥ elbow are considered evidence-supported connections.
+        </p>
+        <p class="info-p" style="color:#94a3b8">
+          Charts on the right show the OO distribution (bars, sorted descending) and the
+          elbow threshold (red dashed line) for each condition. Coloured bars are
+          above the threshold and grey bars fall below the threshold. In the network 
+          visualization, only showing edges above the threshold can be selected.
+        </p>
+
+
+@@ section: key_player_enrichment_intro
+## Tab "Key Player Enrichment" (button "Result Statistics"): text above the condition buttons. The buttons and the three bar plots
+## (hormones | metabolites | proteins/transporters) are generated from the comparison sheets of
+## key_player_analysis/tables/key_player_condition_enrichment.xlsx.
+## placeholders: none
+        <div class="info-h2">Key Player Enrichment</div>
+        <p class="info-p" style="color:#94a3b8">
+          Choose a condition: the plots show the hormones, metabolites and proteins/transporters whose share of papers differs most
+          between the papers of that condition (A) and the papers of the other six conditions (“rest”, B). Bars to the right are
+          enriched in the condition, bars to the left in the rest (Fisher’s exact test, Benjamini-Hochberg q &lt; 0.05, top 15 per
+          side; bar length = log2 odds ratio). The numbers next to the bars are the % of papers that mention the term (A vs B);
+          hovering a bar shows the paper counts and q-value. “Healthy vs Obesity” compares these two conditions directly.
+          The numbers of all terms are in the sheets of key_player_condition_enrichment.xlsx.
+        </p>

@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.~lock.*
+logs/
+*.bak
+PET_data/
+static_outputs/
+statistical_tests/
+methods_figures/
+key_player_analysis/
+validation/
+*.xlsx
+*.csv

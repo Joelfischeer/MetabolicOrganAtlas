@@ -1,0 +1,835 @@
+{
+  "summary": {
+    "window": "2006-09-22..2026-09-17",
+    "search date": "2026/09/17",
+    "hits all years (assignments)": 152868,
+    "window hits (assignments)": 123036,
+    "window unique papers": 70213,
+    "pairs with window hits": 91,
+    "kept (assignments)": 18157,
+    "kept not in window list": 34,
+    "removed by date check (assignments)": 2216,
+    "removed but in window list": 0
+  },
+  "pairs": [
+    {
+      "pair": "Adrenal Glands|Bone Marrow",
+      "hits all years (final query)": 20,
+      "hits in window": 14,
+      "kept": 0,
+      "kept not in window list": 0,
+      "removed by date check": 0,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Adrenal Glands|Brain",
+      "hits all years (final query)": 1465,
+      "hits in window": 716,
+      "kept": 200,
+      "kept not in window list": 1,
+      "removed by date check": 200,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Adrenal Glands|Colon",
+      "hits all years (final query)": 29,
+      "hits in window": 19,
+      "kept": 0,
+      "kept not in window list": 0,
+      "removed by date check": 0,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Adrenal Glands|Heart",
+      "hits all years (final query)": 212,
+      "hits in window": 102,
+      "kept": 5,
+      "kept not in window list": 0,
+      "removed by date check": 3,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Adrenal Glands|Kidney",
+      "hits all years (final query)": 296,
+      "hits in window": 131,
+      "kept": 3,
+      "kept not in window list": 0,
+      "removed by date check": 4,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Adrenal Glands|Liver",
+      "hits all years (final query)": 451,
+      "hits in window": 183,
+      "kept": 4,
+      "kept not in window list": 0,
+      "removed by date check": 4,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Adrenal Glands|Lung",
+      "hits all years (final query)": 93,
+      "hits in window": 40,
+      "kept": 0,
+      "kept not in window list": 0,
+      "removed by date check": 1,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Adrenal Glands|Muscle",
+      "hits all years (final query)": 58,
+      "hits in window": 32,
+      "kept": 0,
+      "kept not in window list": 0,
+      "removed by date check": 0,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Adrenal Glands|Pancreas",
+      "hits all years (final query)": 130,
+      "hits in window": 59,
+      "kept": 0,
+      "kept not in window list": 0,
+      "removed by date check": 0,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Adrenal Glands|Small Intestine",
+      "hits all years (final query)": 98,
+      "hits in window": 52,
+      "kept": 1,
+      "kept not in window list": 0,
+      "removed by date check": 0,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Adrenal Glands|Spleen",
+      "hits all years (final query)": 65,
+      "hits in window": 27,
+      "kept": 0,
+      "kept not in window list": 0,
+      "removed by date check": 0,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Adrenal Glands|Thyroid",
+      "hits all years (final query)": 126,
+      "hits in window": 55,
+      "kept": 2,
+      "kept not in window list": 0,
+      "removed by date check": 4,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Adrenal Glands|WAT",
+      "hits all years (final query)": 185,
+      "hits in window": 106,
+      "kept": 5,
+      "kept not in window list": 0,
+      "removed by date check": 2,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Bone Marrow|Brain",
+      "hits all years (final query)": 613,
+      "hits in window": 529,
+      "kept": 52,
+      "kept not in window list": 0,
+      "removed by date check": 10,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Bone Marrow|Colon",
+      "hits all years (final query)": 115,
+      "hits in window": 98,
+      "kept": 2,
+      "kept not in window list": 0,
+      "removed by date check": 0,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Bone Marrow|Heart",
+      "hits all years (final query)": 384,
+      "hits in window": 345,
+      "kept": 25,
+      "kept not in window list": 0,
+      "removed by date check": 1,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Bone Marrow|Kidney",
+      "hits all years (final query)": 455,
+      "hits in window": 375,
+      "kept": 14,
+      "kept not in window list": 0,
+      "removed by date check": 1,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Bone Marrow|Liver",
+      "hits all years (final query)": 900,
+      "hits in window": 762,
+      "kept": 42,
+      "kept not in window list": 0,
+      "removed by date check": 9,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Bone Marrow|Lung",
+      "hits all years (final query)": 450,
+      "hits in window": 396,
+      "kept": 16,
+      "kept not in window list": 0,
+      "removed by date check": 0,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Bone Marrow|Muscle",
+      "hits all years (final query)": 115,
+      "hits in window": 102,
+      "kept": 2,
+      "kept not in window list": 0,
+      "removed by date check": 0,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Bone Marrow|Pancreas",
+      "hits all years (final query)": 137,
+      "hits in window": 117,
+      "kept": 2,
+      "kept not in window list": 0,
+      "removed by date check": 0,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Bone Marrow|Small Intestine",
+      "hits all years (final query)": 495,
+      "hits in window": 457,
+      "kept": 55,
+      "kept not in window list": 0,
+      "removed by date check": 0,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Bone Marrow|Spleen",
+      "hits all years (final query)": 420,
+      "hits in window": 338,
+      "kept": 16,
+      "kept not in window list": 0,
+      "removed by date check": 4,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Bone Marrow|Thyroid",
+      "hits all years (final query)": 62,
+      "hits in window": 44,
+      "kept": 2,
+      "kept not in window list": 0,
+      "removed by date check": 2,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Bone Marrow|WAT",
+      "hits all years (final query)": 848,
+      "hits in window": 799,
+      "kept": 67,
+      "kept not in window list": 0,
+      "removed by date check": 3,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Brain|Colon",
+      "hits all years (final query)": 1010,
+      "hits in window": 898,
+      "kept": 47,
+      "kept not in window list": 0,
+      "removed by date check": 3,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Brain|Heart",
+      "hits all years (final query)": 5156,
+      "hits in window": 3976,
+      "kept": 397,
+      "kept not in window list": 2,
+      "removed by date check": 56,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Brain|Kidney",
+      "hits all years (final query)": 3871,
+      "hits in window": 2713,
+      "kept": 191,
+      "kept not in window list": 0,
+      "removed by date check": 60,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Brain|Liver",
+      "hits all years (final query)": 8485,
+      "hits in window": 6586,
+      "kept": 836,
+      "kept not in window list": 2,
+      "removed by date check": 165,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Brain|Lung",
+      "hits all years (final query)": 1806,
+      "hits in window": 1393,
+      "kept": 117,
+      "kept not in window list": 0,
+      "removed by date check": 15,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Brain|Muscle",
+      "hits all years (final query)": 2153,
+      "hits in window": 1655,
+      "kept": 106,
+      "kept not in window list": 0,
+      "removed by date check": 15,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Brain|Pancreas",
+      "hits all years (final query)": 2630,
+      "hits in window": 1975,
+      "kept": 164,
+      "kept not in window list": 0,
+      "removed by date check": 70,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Brain|Small Intestine",
+      "hits all years (final query)": 9281,
+      "hits in window": 8666,
+      "kept": 4838,
+      "kept not in window list": 2,
+      "removed by date check": 73,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Brain|Spleen",
+      "hits all years (final query)": 713,
+      "hits in window": 507,
+      "kept": 29,
+      "kept not in window list": 0,
+      "removed by date check": 4,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Brain|Thyroid",
+      "hits all years (final query)": 2348,
+      "hits in window": 1618,
+      "kept": 699,
+      "kept not in window list": 5,
+      "removed by date check": 289,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Brain|WAT",
+      "hits all years (final query)": 4649,
+      "hits in window": 3632,
+      "kept": 444,
+      "kept not in window list": 4,
+      "removed by date check": 103,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Colon|Heart",
+      "hits all years (final query)": 253,
+      "hits in window": 196,
+      "kept": 4,
+      "kept not in window list": 0,
+      "removed by date check": 0,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Colon|Kidney",
+      "hits all years (final query)": 672,
+      "hits in window": 528,
+      "kept": 17,
+      "kept not in window list": 1,
+      "removed by date check": 3,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Colon|Liver",
+      "hits all years (final query)": 2100,
+      "hits in window": 1912,
+      "kept": 126,
+      "kept not in window list": 0,
+      "removed by date check": 7,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Colon|Lung",
+      "hits all years (final query)": 1010,
+      "hits in window": 913,
+      "kept": 52,
+      "kept not in window list": 0,
+      "removed by date check": 2,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Colon|Muscle",
+      "hits all years (final query)": 144,
+      "hits in window": 125,
+      "kept": 4,
+      "kept not in window list": 0,
+      "removed by date check": 0,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Colon|Pancreas",
+      "hits all years (final query)": 687,
+      "hits in window": 623,
+      "kept": 22,
+      "kept not in window list": 0,
+      "removed by date check": 0,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Colon|Small Intestine",
+      "hits all years (final query)": 5753,
+      "hits in window": 5356,
+      "kept": 479,
+      "kept not in window list": 1,
+      "removed by date check": 20,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Colon|Spleen",
+      "hits all years (final query)": 236,
+      "hits in window": 208,
+      "kept": 7,
+      "kept not in window list": 0,
+      "removed by date check": 0,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Colon|Thyroid",
+      "hits all years (final query)": 126,
+      "hits in window": 109,
+      "kept": 9,
+      "kept not in window list": 0,
+      "removed by date check": 1,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Colon|WAT",
+      "hits all years (final query)": 334,
+      "hits in window": 306,
+      "kept": 17,
+      "kept not in window list": 0,
+      "removed by date check": 0,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Heart|Kidney",
+      "hits all years (final query)": 4885,
+      "hits in window": 3937,
+      "kept": 350,
+      "kept not in window list": 0,
+      "removed by date check": 27,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Heart|Liver",
+      "hits all years (final query)": 4781,
+      "hits in window": 3562,
+      "kept": 250,
+      "kept not in window list": 0,
+      "removed by date check": 55,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Heart|Lung",
+      "hits all years (final query)": 2700,
+      "hits in window": 2168,
+      "kept": 139,
+      "kept not in window list": 0,
+      "removed by date check": 32,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Heart|Muscle",
+      "hits all years (final query)": 4083,
+      "hits in window": 2704,
+      "kept": 224,
+      "kept not in window list": 4,
+      "removed by date check": 124,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Heart|Pancreas",
+      "hits all years (final query)": 786,
+      "hits in window": 601,
+      "kept": 21,
+      "kept not in window list": 0,
+      "removed by date check": 4,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Heart|Small Intestine",
+      "hits all years (final query)": 1552,
+      "hits in window": 1373,
+      "kept": 270,
+      "kept not in window list": 0,
+      "removed by date check": 4,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Heart|Spleen",
+      "hits all years (final query)": 534,
+      "hits in window": 369,
+      "kept": 18,
+      "kept not in window list": 0,
+      "removed by date check": 0,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Heart|Thyroid",
+      "hits all years (final query)": 601,
+      "hits in window": 413,
+      "kept": 50,
+      "kept not in window list": 1,
+      "removed by date check": 35,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Heart|WAT",
+      "hits all years (final query)": 2080,
+      "hits in window": 1681,
+      "kept": 130,
+      "kept not in window list": 1,
+      "removed by date check": 10,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Kidney|Liver",
+      "hits all years (final query)": 7909,
+      "hits in window": 5770,
+      "kept": 446,
+      "kept not in window list": 2,
+      "removed by date check": 154,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Kidney|Lung",
+      "hits all years (final query)": 1903,
+      "hits in window": 1406,
+      "kept": 57,
+      "kept not in window list": 0,
+      "removed by date check": 10,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Kidney|Muscle",
+      "hits all years (final query)": 1111,
+      "hits in window": 779,
+      "kept": 35,
+      "kept not in window list": 1,
+      "removed by date check": 3,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Kidney|Pancreas",
+      "hits all years (final query)": 1246,
+      "hits in window": 943,
+      "kept": 33,
+      "kept not in window list": 0,
+      "removed by date check": 16,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Kidney|Small Intestine",
+      "hits all years (final query)": 3027,
+      "hits in window": 2491,
+      "kept": 549,
+      "kept not in window list": 0,
+      "removed by date check": 31,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Kidney|Spleen",
+      "hits all years (final query)": 895,
+      "hits in window": 649,
+      "kept": 25,
+      "kept not in window list": 0,
+      "removed by date check": 2,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Kidney|Thyroid",
+      "hits all years (final query)": 539,
+      "hits in window": 343,
+      "kept": 16,
+      "kept not in window list": 0,
+      "removed by date check": 13,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Kidney|WAT",
+      "hits all years (final query)": 1258,
+      "hits in window": 1035,
+      "kept": 41,
+      "kept not in window list": 0,
+      "removed by date check": 5,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Liver|Lung",
+      "hits all years (final query)": 2806,
+      "hits in window": 2187,
+      "kept": 127,
+      "kept not in window list": 0,
+      "removed by date check": 28,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Liver|Muscle",
+      "hits all years (final query)": 4260,
+      "hits in window": 3347,
+      "kept": 312,
+      "kept not in window list": 0,
+      "removed by date check": 44,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Liver|Pancreas",
+      "hits all years (final query)": 4204,
+      "hits in window": 3397,
+      "kept": 294,
+      "kept not in window list": 0,
+      "removed by date check": 63,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Liver|Small Intestine",
+      "hits all years (final query)": 10502,
+      "hits in window": 9527,
+      "kept": 3102,
+      "kept not in window list": 0,
+      "removed by date check": 81,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Liver|Spleen",
+      "hits all years (final query)": 1558,
+      "hits in window": 1170,
+      "kept": 55,
+      "kept not in window list": 0,
+      "removed by date check": 4,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Liver|Thyroid",
+      "hits all years (final query)": 1638,
+      "hits in window": 1056,
+      "kept": 130,
+      "kept not in window list": 1,
+      "removed by date check": 90,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Liver|WAT",
+      "hits all years (final query)": 8391,
+      "hits in window": 7341,
+      "kept": 778,
+      "kept not in window list": 1,
+      "removed by date check": 81,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Lung|Muscle",
+      "hits all years (final query)": 588,
+      "hits in window": 459,
+      "kept": 12,
+      "kept not in window list": 0,
+      "removed by date check": 4,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Lung|Pancreas",
+      "hits all years (final query)": 615,
+      "hits in window": 540,
+      "kept": 19,
+      "kept not in window list": 0,
+      "removed by date check": 1,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Lung|Small Intestine",
+      "hits all years (final query)": 1341,
+      "hits in window": 1208,
+      "kept": 437,
+      "kept not in window list": 0,
+      "removed by date check": 7,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Lung|Spleen",
+      "hits all years (final query)": 492,
+      "hits in window": 336,
+      "kept": 12,
+      "kept not in window list": 0,
+      "removed by date check": 0,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Lung|Thyroid",
+      "hits all years (final query)": 248,
+      "hits in window": 202,
+      "kept": 13,
+      "kept not in window list": 0,
+      "removed by date check": 3,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Lung|WAT",
+      "hits all years (final query)": 396,
+      "hits in window": 337,
+      "kept": 11,
+      "kept not in window list": 0,
+      "removed by date check": 3,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Muscle|Pancreas",
+      "hits all years (final query)": 990,
+      "hits in window": 812,
+      "kept": 50,
+      "kept not in window list": 1,
+      "removed by date check": 8,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Muscle|Small Intestine",
+      "hits all years (final query)": 821,
+      "hits in window": 725,
+      "kept": 71,
+      "kept not in window list": 0,
+      "removed by date check": 4,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Muscle|Spleen",
+      "hits all years (final query)": 150,
+      "hits in window": 80,
+      "kept": 1,
+      "kept not in window list": 0,
+      "removed by date check": 0,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Muscle|Thyroid",
+      "hits all years (final query)": 292,
+      "hits in window": 194,
+      "kept": 15,
+      "kept not in window list": 0,
+      "removed by date check": 11,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Muscle|WAT",
+      "hits all years (final query)": 3848,
+      "hits in window": 3186,
+      "kept": 267,
+      "kept not in window list": 2,
+      "removed by date check": 45,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Pancreas|Small Intestine",
+      "hits all years (final query)": 1949,
+      "hits in window": 1522,
+      "kept": 158,
+      "kept not in window list": 1,
+      "removed by date check": 38,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Pancreas|Spleen",
+      "hits all years (final query)": 208,
+      "hits in window": 141,
+      "kept": 7,
+      "kept not in window list": 0,
+      "removed by date check": 0,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Pancreas|Thyroid",
+      "hits all years (final query)": 261,
+      "hits in window": 192,
+      "kept": 14,
+      "kept not in window list": 0,
+      "removed by date check": 2,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Pancreas|WAT",
+      "hits all years (final query)": 1705,
+      "hits in window": 1474,
+      "kept": 85,
+      "kept not in window list": 1,
+      "removed by date check": 14,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Small Intestine|Spleen",
+      "hits all years (final query)": 714,
+      "hits in window": 621,
+      "kept": 45,
+      "kept not in window list": 0,
+      "removed by date check": 1,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Small Intestine|Thyroid",
+      "hits all years (final query)": 334,
+      "hits in window": 281,
+      "kept": 79,
+      "kept not in window list": 0,
+      "removed by date check": 1,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Small Intestine|WAT",
+      "hits all years (final query)": 2156,
+      "hits in window": 2040,
+      "kept": 241,
+      "kept not in window list": 0,
+      "removed by date check": 5,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Spleen|Thyroid",
+      "hits all years (final query)": 53,
+      "hits in window": 30,
+      "kept": 0,
+      "kept not in window list": 0,
+      "removed by date check": 0,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Spleen|WAT",
+      "hits all years (final query)": 210,
+      "hits in window": 166,
+      "kept": 6,
+      "kept not in window list": 0,
+      "removed by date check": 1,
+      "removed but in window list": 0
+    },
+    {
+      "pair": "Thyroid|WAT",
+      "hits all years (final query)": 609,
+      "hits in window": 448,
+      "kept": 42,
+      "kept not in window list": 0,
+      "removed by date check": 18,
+      "removed but in window list": 0
+    }
+  ]
+}

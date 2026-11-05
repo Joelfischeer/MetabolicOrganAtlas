@@ -1,0 +1,24 @@
+[project]
+name = "metabolic-reference-atlas"
+version = "1.0.0"
+description = "Metabolic Reference Atlas: PubMed search, LLM condition labels, connection types and cited descriptions for 14 organs (91 pairs), FDG-PET partial-correlation networks and an interactive Cytoscape dashboard"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "networkx==3.6.1",
+    "pandas==3.0.0",
+    "numpy==2.4.2",
+    "scipy>=1.14.0",
+    "matplotlib==3.11.1",
+    "openpyxl==3.1.5",
+    "requests==2.32.5",
+    "anthropic==0.111.0",
+    "pyahocorasick==2.3.1",
+    "pymupdf>=1.24.0",
+    "fontawesomefree>=6.5.0",
+]
+
+# Versions pinned to the environment that produced the shipped results (numpy, pandas, matplotlib, networkx, anthropic ...);
+# scipy, pymupdf and fontawesomefree were not pinned in the predecessor project.
+[tool.uv]
+package = false

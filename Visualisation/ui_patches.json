@@ -1,0 +1,87 @@
+[
+ {
+  "new": "  #topbar-title {\n    font-size: 17px;\n    font-weight: 700;\n    color: #f8fafc;\n    text-align: center;\n    padding: 8px 20px 6px;\n    letter-spacing: 0.02em;",
+  "old": "  #topbar-title {\n    font-size: 15.3px;\n    font-weight: 700;\n    color: #f8fafc;\n    text-align: center;\n    padding: 7px 44px 7px;\n    min-height: 36px;\n    letter-spacing: 0.02em;",
+  "where_new_line": 32
+ },
+ {
+  "new": "    align-items: center;\n    gap: 12px;\n    padding: 8px 20px;\n    flex-wrap: wrap;",
+  "old": "    align-items: center;\n    gap: 10px;\n    padding: 6px 18px;\n    flex-wrap: wrap;",
+  "where_new_line": 44
+ },
+ {
+  "new": "    flex-direction: column;\n    gap: 4px;\n    padding: 5px 10px 6px;\n    background: #0f172a;\n    border: 1px solid #475569;\n    border-radius: 8px;\n  }\n\n  .ctrl-group-label {\n    font-size: 9px;\n    font-weight: 600;",
+  "old": "    flex-direction: column;\n    gap: 3.6px;\n    padding: 4.5px 9px 5.4px;\n    background: #0f172a;\n    border: 1px solid #475569;\n    border-radius: 8px;\n  }\n\n  .ctrl-group-label {\n    font-size: 8.1px;\n    font-weight: 600;",
+  "where_new_line": 58
+ },
+ {
+  "new": "    position: relative;\n    flex: 1;\n    max-width: 400px;",
+  "old": "    position: relative;\n    flex: 1 0 240px;\n    max-width: 400px;",
+  "where_new_line": 84
+ },
+ {
+  "new": "    width: 100%;\n    padding: 7px 12px 7px 32px;\n    background: #0f172a;\n    border: 1px solid #334155;\n    border-radius: 8px;\n    color: #e2e8f0;\n    font-size: 14px;\n    outline: none;",
+  "old": "    width: 100%;\n    padding: 6.3px 11px 6.3px 29px;\n    background: #0f172a;\n    border: 1px solid #334155;\n    border-radius: 8px;\n    color: #e2e8f0;\n    font-size: 12.6px;\n    outline: none;",
+  "where_new_line": 100
+ },
+ {
+  "new": "  .ctrl-btn {\n    padding: 6px 12px;\n    background: #334155;\n    border: none;\n    border-radius: 6px;\n    color: #cbd5e1;\n    font-size: 13px;\n    cursor: pointer;",
+  "old": "  .ctrl-btn {\n    padding: 5.4px 10.8px;\n    background: #334155;\n    border: none;\n    border-radius: 6px;\n    color: #cbd5e1;\n    font-size: 11.7px;\n    cursor: pointer;",
+  "where_new_line": 119
+ },
+ {
+  "new": "  }\n  #info-panel.open {\n    width: 760px;\n    min-width: 500px;\n  }",
+  "old": "  }\n  #main { position: relative; }\n  #info-panel.open {\n    position: fixed;\n    top: 0; left: 0; bottom: 0;\n    width: 100vw;\n    min-width: 0;\n    z-index: 30;\n    border-right: none;\n  }",
+  "where_new_line": 151
+ },
+ {
+  "new": "  /* ---- Sidebar ---- */\n  #sidebar {\n    width: 340px;",
+  "old": "  /* ---- Sidebar ---- */\n  body { padding-right: 0; transition: padding-right 0.25s ease; }\n  body:has(#sidebar:not(.closed)) { padding-right: 340px; }\n  #sidebar {\n    position: fixed;\n    top: 0;\n    right: 0;\n    height: 100vh;\n    z-index: 20;\n    width: 340px;",
+  "where_new_line": 316
+ },
+ {
+  "new": "    <div class=\"ctrl-group\">\n      <div class=\"ctrl-group-label\">Compare to reference</div>\n      <div class=\"ctrl-group-btns\">\n      \n<button id=\"upload-comparison-clear-btn\" class=\"ctrl-btn\" title=\"Clear uploaded comparison\"\n        style=\"display:none\" onclick=\"clearUploadedComparison()\">✕ Clear comparison</button><button id=\"healthy-cohort-btn\" onclick=\"loadHealthyCohort()\" class=\"ctrl-btn\" title=\"Compare current Healthy view vs the predefined healthy-cohort edges\">&#9878; Healthy cohort</button><button id=\"obese-cohort-btn\" onclick=\"loadObeseCohort()\" class=\"ctrl-btn\" title=\"Compare current Overweight view vs the predefined overweight-cohort edges\">&#9878; Overweight cohort</button><button id=\"lung-cancer-cohort-btn\" onclick=\"loadLungCancerCohort()\" class=\"ctrl-btn\" title=\"Compare current view vs the predefined lung-cancer-cohort edges\">&#9878; Lung cancer cohort</button>\n      </div>",
+  "old": "    <div class=\"ctrl-group\">\n      <div class=\"ctrl-group-label\">Show reference network</div>\n      <div class=\"ctrl-group-btns\">\n\n<button id=\"upload-comparison-clear-btn\" class=\"ctrl-btn\" title=\"Clear reference network\"\n        style=\"display:none\" onclick=\"clearUploadedComparison()\">✕ Clear reference</button><button id=\"healthy-cohort-btn\" onclick=\"loadHealthyCohort()\" class=\"ctrl-btn\" title=\"Show healthy PC reference network\">&#9878; Healthy cohort</button><button id=\"obese-cohort-btn\" onclick=\"loadObeseCohort()\" class=\"ctrl-btn\" title=\"Show overweight PC reference network\">&#9878; Overweight cohort</button><button id=\"lung-cancer-cohort-btn\" onclick=\"loadLungCancerCohort()\" class=\"ctrl-btn\" title=\"Show lung cancer PC reference network\">&#9878; Lung cancer cohort</button>\n      </div>",
+  "where_new_line": 698
+ },
+ {
+  "new": "\n  <div id=\"sidebar\">\n    <div id=\"sidebar-header\">",
+  "old": "\n  <div id=\"sidebar\" class=\"closed\">\n    <div id=\"sidebar-header\">",
+  "where_new_line": 1754
+ },
+ {
+  "new": "    ).join('');\n    summaryHtml += section(allTypes.length > 1 ? 'Types' : 'Type',\n      `<div style=\"display:flex;flex-wrap:wrap\">${badges}</div>`);\n  }",
+  "old": "    ).join('');\n    const _rBadge = (data.refRValue != null && typeof data.refRValue === 'number')\n      ? (() => {\n          const _rCol = data.refRValue < 0 ? '#ef4444' : '#3b82f6';\n          return `<span style=\"font-size:12px;font-weight:600;color:${_rCol};margin:0 6px 6px 0;`+\n            `padding:3px 8px;background:#0f172a;border-radius:4px;border:1px solid ${_rCol}40\">`+\n            `r = ${data.refRValue.toFixed(4)}</span>`;\n        })()\n      : '';\n    summaryHtml += section(allTypes.length > 1 ? 'Types' : 'Type',\n      `<div style=\"display:flex;flex-wrap:wrap;align-items:center\">${badges}${_rBadge}</div>`);\n  }",
+  "where_new_line": 2157
+ },
+ {
+  "new": "\n  const CMP_COLOR_SHARED = '#22c55e', CMP_COLOR_ONLY_LIT = '#38bdf8', CMP_COLOR_ONLY_REF = '#f97316';\n",
+  "old": "\n  const CMP_COLOR_SHARED = '#22c55e', CMP_COLOR_ONLY_LIT = '#38bdf8', CMP_COLOR_ONLY_REF = '#ef4444';\n  const REF_COLOR_POS = '#3b82f6', REF_COLOR_NEG = '#ef4444';\n",
+  "where_new_line": 2582
+ },
+ {
+  "new": "    const curOrgans = new Set(currentOrgans());\n    let visibleOrgans = curOrgans;\n    if (uploadedRefPairs) {\n      const uploadedOrgans = new Set();\n      uploadedRefPairs.forEach(k => k.split('__').forEach(o => uploadedOrgans.add(o)));\n      visibleOrgans = new Set([...curOrgans].filter(o => uploadedOrgans.has(o)));\n    }\n",
+  "old": "    const curOrgans = new Set(currentOrgans());\n    // Comparison view: a condition (Healthy/Obese) AND a reference are both selected\n    const compareMode = !!uploadedRefPairs && displayMode !== 'all';\n    let visibleOrgans = curOrgans;\n    if (uploadedRefPairs) {\n      const uploadedOrgans = new Set();\n      uploadedRefPairs.forEach((_, k) => k.split('__').forEach(o => uploadedOrgans.add(o)));\n      visibleOrgans = compareMode\n        ? new Set([...curOrgans].filter(o => uploadedOrgans.has(o)))\n        : uploadedOrgans;\n    }\n    const _refHasNeg = uploadedRefPairs\n      ? [...uploadedRefPairs.values()].some(r => r < 0)\n      : false;\n",
+  "where_new_line": 2650
+ },
+ {
+  "new": "        e.data('connection_type', e.data('origConnType'));\n        return;\n      }\n\n      const displayed = edgeInCurrentMode(e);\n      const inUpload  = uploadedRefPairs.has(normPairKey(u, v));\n\n      if (!displayed && !inUpload) { e.style('display', 'none'); return; }\n\n      const _condLabel = displayMode === 'all' ? 'All' : (COND_LABEL[displayMode] || displayMode);\n\n      e.style('display', 'element');\n      if (displayed && inUpload) {\n        e.data('color', CMP_COLOR_SHARED);\n        e.data('connection_type', 'SHARED — in both networks');\n      } else if (displayed) {\n        e.data('color', CMP_COLOR_ONLY_LIT);\n        e.data('connection_type', `ONLY in the ${_condLabel} network`);\n      } else {\n        e.data('color', CMP_COLOR_ONLY_REF);\n        const _refLabel = comparisonSource === 'healthy_cohort' ? 'Healthy cohort reference network'\n                        : comparisonSource === 'obese_cohort'   ? 'Overweight cohort reference network'\n                        : comparisonSource === 'lung_cancer_cohort' ? 'Lung cancer cohort reference network'\n                        : 'uploaded reference network';\n        e.data('connection_type', `ONLY in the ${_refLabel}`);\n      }",
+  "old": "        e.data('connection_type', e.data('origConnType'));\n        e.data('refRValue', null);\n        return;\n      }\n\n      if (compareMode) {\n        const _ck = normPairKey(u, v);\n        const _displayed = edgeInCurrentMode(e);\n        const _inRef = uploadedRefPairs.has(_ck);\n        if (!_displayed && !_inRef) { e.style('display', 'none'); return; }\n        e.style('display', 'element');\n        e.data('refRValue', _inRef ? uploadedRefPairs.get(_ck) : null);\n        const _cl = (COND_LABEL[displayMode] || displayMode);\n        if (_displayed && _inRef) {\n          e.data('color', CMP_COLOR_SHARED);\n          e.data('connection_type', 'SHARED — in both networks');\n        } else if (_displayed) {\n          e.data('color', CMP_COLOR_ONLY_LIT);\n          e.data('connection_type', `ONLY in the ${_cl} network`);\n        } else {\n          e.data('color', CMP_COLOR_ONLY_REF);\n          const _rl = comparisonSource === 'healthy_cohort' ? 'Healthy cohort reference network'\n                    : comparisonSource === 'obese_cohort'   ? 'Overweight cohort reference network'\n                    : comparisonSource === 'lung_cancer_cohort' ? 'Lung cancer cohort reference network'\n                    : 'uploaded reference network';\n          e.data('connection_type', `ONLY in the ${_rl}`);\n        }\n        return;\n      }\n\n      // Reference-only mode: show only the reference network edges\n      const _pairKey = normPairKey(u, v);\n      const inUpload = uploadedRefPairs.has(_pairKey);\n      e.style('display', inUpload ? 'element' : 'none');\n      if (inUpload) {\n        const _rVal = uploadedRefPairs.get(_pairKey);\n        const _refLabel = comparisonSource === 'healthy_cohort' ? 'Healthy cohort (PC reference)'\n                        : comparisonSource === 'obese_cohort'   ? 'Overweight cohort (PC reference)'\n                        : comparisonSource === 'lung_cancer_cohort' ? 'Lung cancer cohort (PC reference)'\n                        : 'Uploaded reference network';\n        e.data('color', (_refHasNeg && _rVal < 0) ? REF_COLOR_NEG : REF_COLOR_POS);\n        e.data('connection_type', _refLabel);\n        e.data('refRValue', _rVal);\n      }",
+  "where_new_line": 2689
+ },
+ {
+  "new": "\n    const pairs = new Set();\n    for (let i = 1; i < lines.length; i++) {",
+  "old": "\n    const pairs = new Map();\n    for (let i = 1; i < lines.length; i++) {",
+  "where_new_line": 2750
+ },
+ {
+  "new": "        const val = (cells[j] || '').trim();\n        if (val !== '1') continue;\n        const colOrgan = canonHeader[j - 1];\n        if (colOrgan && colOrgan !== rowOrgan) pairs.add(normPairKey(rowOrgan, colOrgan));\n      }",
+  "old": "        const val = (cells[j] || '').trim();\n        const num = parseFloat(val);\n        if (!val || num === 0 || isNaN(num)) continue;\n        const colOrgan = canonHeader[j - 1];\n        if (colOrgan && colOrgan !== rowOrgan) {\n          const key = normPairKey(rowOrgan, colOrgan);\n          if (!pairs.has(key)) pairs.set(key, num);\n        }\n      }",
+  "where_new_line": 2759
+ },
+ {
+  "new": "        if (!btn._origOnclick) btn._origOnclick = btn.onclick;\n        btn.innerHTML = '✕ Clear comparison';\n        btn.onclick = function() { window.clearUploadedComparison(); };",
+  "old": "        if (!btn._origOnclick) btn._origOnclick = btn.onclick;\n        btn.innerHTML = '✕ Clear reference';\n        btn.onclick = function() { window.clearUploadedComparison(); };",
+  "where_new_line": 2792
+ }
+]
