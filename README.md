@@ -118,9 +118,9 @@ For each organ pair and disease-condition view, titles, abstracts, and MeSH desc
 
 | Category | Vocabulary size | Source |
 |---|---:|---|
-| Hormones | 171 | Manually curated from published lists [23, 24] |
-| Metabolites | 254 | Stanford Pathways of Human Metabolism map [25] |
-| Proteins | 45,138 | Human Protein Atlas (HPA), UniProt, and neXtProt [26, 27] |
+| Hormones | 171 | Manually curated from published lists|
+| Metabolites | 254 | Stanford Pathways of Human Metabolism map|
+| Proteins | 45,138 | Human Protein Atlas (HPA), UniProt|
 
 The protein vocabulary comprises four HPA gene tables covering intracellular, membrane, secreted, and secreted-and-membrane protein evidence.
 
