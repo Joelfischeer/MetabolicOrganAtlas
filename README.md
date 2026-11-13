@@ -14,6 +14,25 @@ The organs are adrenal glands, bone marrow, brain, colon, heart, kidney, liver, 
 - **Key players.** Hormones, metabolites and proteins mentioned in the papers of a connection are extracted and counted.
 - **FDG-PET reference networks.** Partial-correlation networks for a healthy cohort (n = 112), an overweight cohort (n = 85) and a lung cancer cohort (n = 241), following [Geist et al. (2025)](https://doi.org/10.1016/j.medj.2025.100881). Blue edges are positive correlations and red edges are negative ones.
 
+## Used organ aliases for the Pubmed search
+
+Adrenal Glands: adrenal gland, adrenal cortex, adrenal medulla, adrenocortical
+Bone Marrow: bone marrow, hematopoietic, haematopoietic, hematopoiesis, bone marrow niche
+Brain: brain, cerebral, hypothalamus, hypothalamic, pituitary, pituitary gland, arcuate nucleus, paraventricular nucleus, nucleus tractus solitarius, area postrema, hippocampus, hippocampal, amygdala, brainstem, brain stem, cerebellum, cerebellar, thalamus, thalamic, basal ganglia, prefrontal cortex, cerebral cortex, medulla oblongata, pons, forebrain, midbrain, hindbrain, central nervous system, CNS, neuronal, neuroendocrine
+Colon: colon, large intestine, colorectal, colonic
+Heart: heart, cardiac, myocardial, cardiomyocyte, myocardium, cardiac muscle
+Kidney: kidney, renal, nephron, glomerular, kidneys, tubular
+Liver: liver, hepatic, hepatocyte, hepatocellular
+Lung: lung, pulmonary, alveolar, bronchial
+Muscle: skeletal muscle, myocyte
+Pancreas: Pancreas; pancreas, pancreatic
+Small Intestine: small intestine, duodenum, jejunum, ileum, intestinal, gut, enterocyte, Peyer's patches
+Spleen: spleen, splenic, splenomegaly, lymphoid organ, immune organ
+Thyroid: thyroid, thyroid gland
+WAT: adipose tissue, white adipose tissue, white fat tissue, adipocyte, adipogenesis, visceral fat, subcutaneous fat, WAT
+
+Special organ alias cases: "gut" (including gut microbiota) counts as small intestine only and not towards colon to not make the assignments ambiguous.  The word “muscle” is not counted toward the organ “muscle” as it could also appear in “smooth muscle” or “cardiac muscle”
+
 ## How to use it
 
 1. **Open the page** in any modern browser. No installation or server is needed.
